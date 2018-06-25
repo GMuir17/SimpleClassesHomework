@@ -19,9 +19,14 @@ public class PrinterTest {
     }
 
     @Test
-    public void printTest() {
+    public void printTestSufficientPaper() {
         printer.print(1, 1);
         assertEquals(9, printer.getPaperLeft());
     }
 
+    @Test
+    public void printTestInsufficientPaper() {
+        printer.print(20, 2);
+        assertEquals(10, printer.getPaperLeft());
+    }
 }
