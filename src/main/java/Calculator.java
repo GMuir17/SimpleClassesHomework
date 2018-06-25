@@ -20,4 +20,10 @@ public class Calculator {
         int sum = this.firstNumber + this.secondNumber;
         return sum;
     }
+
+
+    public int subtractingNumbers() {
+        int result = this.firstNumber - this.secondNumber;
+        return result;
+    }
 }

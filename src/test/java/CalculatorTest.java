@@ -27,4 +27,9 @@ public class CalculatorTest {
         assertEquals(7,calculator.addingNumbers());
     }
 
+    @Test
+    public void substractingNumbers() {
+        assertEquals(3, calculator.subtractingNumbers());
+    }
+
 }
