@@ -17,4 +17,9 @@ public class CalculatorTest {
         assertEquals(5, calculator.firstNumber());
     }
 
+    @Test
+    public void hasSecondNumber() {
+        assertEquals(2, calculator.secondNumber());
+    }
+
 }

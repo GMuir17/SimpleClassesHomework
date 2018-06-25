@@ -11,4 +11,8 @@ public class Calculator {
     public int firstNumber() {
         return this.firstNumber;
     }
+
+    public int secondNumber() {
+        return this.secondNumber;
+    }
 }
