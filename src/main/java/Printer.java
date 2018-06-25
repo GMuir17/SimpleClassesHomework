@@ -15,6 +15,7 @@ public class Printer {
     public void print(int numberOfPages, int numberOfCopies) {
         if(numberOfPages <= paperLeft) {
             this.paperLeft -= (numberOfPages * numberOfCopies);
+            this.toner -= numberOfPages;
         }
         else {
 
