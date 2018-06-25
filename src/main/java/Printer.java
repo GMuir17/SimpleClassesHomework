@@ -20,4 +20,7 @@ public class Printer {
         }
     }
 
+    public void refill() {
+        this.paperLeft = 10;
+    }
 }
