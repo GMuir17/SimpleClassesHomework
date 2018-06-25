@@ -15,4 +15,9 @@ public class Calculator {
     public int secondNumber() {
         return this.secondNumber;
     }
+
+    public int addingNumbers() {
+        int sum = this.firstNumber + this.secondNumber;
+        return sum;
+    }
 }

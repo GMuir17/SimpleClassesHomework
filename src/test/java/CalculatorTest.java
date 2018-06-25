@@ -22,4 +22,9 @@ public class CalculatorTest {
         assertEquals(2, calculator.secondNumber());
     }
 
+    @Test
+    public void addingNumbers() {
+        assertEquals(7,calculator.addingNumbers());
+    }
+
 }
