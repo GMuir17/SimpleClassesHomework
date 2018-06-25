@@ -10,4 +10,14 @@ public class Printer {
     public int getPaperLeft() {
         return this.paperLeft;
     }
+
+    public void print(int numberOfPages, int numberOfCopies) {
+        if(numberOfPages <= paperLeft) {
+            this.paperLeft -= (numberOfPages * numberOfCopies);
+        }
+        else {
+
+        }
+    }
+
 }

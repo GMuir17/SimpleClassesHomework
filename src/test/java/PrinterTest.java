@@ -18,6 +18,10 @@ public class PrinterTest {
         assertEquals(10, printer.getPaperLeft());
     }
 
-
+    @Test
+    public void printTest() {
+        printer.print(1, 1);
+        assertEquals(9, printer.getPaperLeft());
+    }
 
 }
