@@ -31,4 +31,9 @@ public class Calculator {
         int result = this.firstNumber * this.secondNumber;
         return result;
     }
+
+    public int dividingNumbers() {
+        int result = this.firstNumber / this.secondNumber;
+        return result;
+    }
 }

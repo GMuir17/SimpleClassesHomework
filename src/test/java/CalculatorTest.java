@@ -37,4 +37,9 @@ public class CalculatorTest {
         assertEquals(10, calculator.multiplyingNumbers());
     }
 
+    @Test
+    public void dividingNumbersTest() {
+        assertEquals(2, calculator.dividingNumbers());
+    }
+
 }
