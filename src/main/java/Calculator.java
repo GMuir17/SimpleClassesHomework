@@ -26,4 +26,9 @@ public class Calculator {
         int result = this.firstNumber - this.secondNumber;
         return result;
     }
+
+    public int multiplyingNumbers() {
+        int result = this.firstNumber * this.secondNumber;
+        return result;
+    }
 }

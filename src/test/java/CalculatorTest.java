@@ -23,13 +23,18 @@ public class CalculatorTest {
     }
 
     @Test
-    public void addingNumbers() {
+    public void addingNumbersTest() {
         assertEquals(7,calculator.addingNumbers());
     }
 
     @Test
-    public void substractingNumbers() {
+    public void subtractingNumbersTest() {
         assertEquals(3, calculator.subtractingNumbers());
+    }
+
+    @Test
+    public void multiplyingNumbersTest() {
+        assertEquals(10, calculator.multiplyingNumbers());
     }
 
 }
